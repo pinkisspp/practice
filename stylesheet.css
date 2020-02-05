@@ -106,6 +106,8 @@ h1 {
 /* ---------------------------main---------------------------- */
 
 .main {
+  margin-top: 0;
+  padding: 0px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -116,64 +118,62 @@ h1 {
   opacity: 0.8;
 }
 
-.blogs {
-  align-items: center;
-}
-
-.blogs a {
-  color: rgb(218, 184, 184);
-  background-color: rgb(68, 9, 112);
-  border-radius: 10px;
-  padding: 8px 24px;
-  box-shadow: 4px 7px rgb(0, 0, 0);
-}
-
-.blogs a:hover {
-font-size: 35px;
-}
-
-.blogs a:active {
-  position: relative;
-  top: 7px;
-  left: 4px;
-  box-shadow: none;
-}
-
-.blogs h1 {
-  font-size: 32px;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  color: #f73636;
-  font-family: monospace;
-  cursor: zoom-in;
-}
-
-.plus {
-  color: rgb(95, 95, 95);
-  font-size: 5px;
-  background-color: rgb(219, 219, 219);
-  border-radius: 20%;
-  cursor: pointer;
-}
-
-.answer {
+.tittle{
   font-size: 20px;
-  text-align: center;
-  padding: 0px 20px;
-  background-color: rgba(185, 155, 255, 0.445);
-  font-weight: bold;
-  display: none;
-  cursor: zoom-out;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
 }
 
-.smallp {
-  border-radius: 20%;
+.explain{
+  color: #83ff7f;
+  margin: 0px;
+  padding: 0px;
 }
 
-.eBook {
-margin-bottom: 60px;
-display: inline-block;
+.pinky {
+  margin-bottom: 30px;
+  width: 60px;
 }
+
+.pinky-radius{
+  margin-bottom: 30px;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.pinky-radius-circle{
+  margin-bottom: 30px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.pinky-hover-big{
+  margin-bottom: 30px;
+  width: 60px;
+}
+.pinky-hover-big:hover{
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+.pinky-hover-small{
+  margin-bottom: 30px;
+  width: 60px;
+}
+.pinky-hover-small:hover{
+  margin-bottom: 30px;
+  width: 45px;
+}
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------footer------------------------ */
 .footer {
@@ -322,90 +322,7 @@ h1 {
   
   /* ---------------------------main---------------------------- */
   
-  .main {
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #9fe1ff;
-    text-align: center;
-    background-image: url(Singaporewallpaper.jpeg);
-    background-size: cover;
-    opacity: 0.8;
-  }
-  
-  .blogs {
-    align-items: center;
-  }
-  
-  .blogs a {
-    color: rgb(218, 184, 184);
-    background-color: rgb(68, 9, 112);
-    border-radius: 10px;
-    /* padding: 8px 24px;
-    box-shadow: 4px 7px rgb(0, 0, 0); */
-    padding: 4px 10px;
-    box-shadow: 2px 5px rgb(0, 0, 0);
-  }
-
-  .travel {
-    font-size: 11px;
-  }
-  
-  .blogs a:hover {
-    font-size: 15px;
-  }
-  
-  .blogs a:active {
-    position: relative;
-    /* top: 7px;
-    left: 4px; */
-    top: 5px;
-    left: 2px;
-    box-shadow: none;
-  }
-  
-  .blogs h1 {
-    /* font-size: 32px; */
-    font-size: 30px;
-    /* padding-top: 60px; */
-    padding-top: 30px;
-    /* padding-bottom: 15px; */
-    padding-bottom: 10px;
-    color: #f73636;
-    font-family: monospace;
-    cursor: zoom-in;
-  }
-  
-  .plus {
-    color: rgb(95, 95, 95);
-    /* font-size: 5px; */
-    font-size: 15px;
-    background-color: rgb(219, 219, 219);
-    border-radius: 20%;
-    cursor: pointer;
-  }
-  
-  .answer {
-    /* font-size: 20px; */
-    font-size: 15px;
-    /* text-align: center; */
-    text-align: left;
-    padding: 0px 20px;
-    background-color: rgba(185, 155, 255, 0.445);
-    font-weight: bold;
-    display: none;
-    cursor: zoom-out;
-  }
-  
-  .smallp {
-    border-radius: 20%;
-  }
-  
-  .eBook {
-    /* margin-bottom: 60px; */
-    margin-bottom: 30px;
-    display: inline-block;
-  }
+ 
   
   /* -------------------------------footer------------------------ */
   .footer {
