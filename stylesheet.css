@@ -1,1 +1,429 @@
+body {
+  margin-top: 0px;
+}
 
+
+/* --------------------------header----------------------------- */
+ .header {
+   background-color: aquamarine;
+   height: auto;
+   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  margin: 0px auto;
+}
+
+.pinkyicon {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.pinkyicon:hover {
+  width:220px;
+  height:220px;
+}
+
+.info span:hover {
+  color: red;
+  font-size: 80px;
+}
+
+.info {
+  float: right;
+  padding-top: 60px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.why p {
+  color: #4b4b4b;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+  background-color: rgb(159, 192, 253);
+  width: 200px;
+  border-radius: 10px;
+  padding: 2px 4px;
+  box-shadow: 3px 5px rgb(99, 98, 98);
+  cursor: zoom-in;
+}
+
+.why p:active {
+  position: relative;
+  top: 3px;
+  left: 5px;
+  box-shadow: none;
+}
+
+.whyAnswer {
+  color: #333333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(185, 155, 255, 0.445);
+  border: 4px solid rgb(65, 65, 65);
+  font-weight: bold;
+  cursor: zoom-out;
+  } 
+
+/* ---------------------------sns---------------------------- */
+
+.sns {
+  background-color: #303030;
+  height: 80px;
+  align-items: center;
+  line-height: 100px;
+  text-align: center;
+}
+
+.sns img {
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.sns img:hover {
+  width: 60px;
+  height: 60px;
+  }
+
+/* ---------------------------main---------------------------- */
+
+.main {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #9fe1ff;
+  text-align: center;
+  background-image: url(Singaporewallpaper.jpeg);
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.blogs {
+  align-items: center;
+}
+
+.blogs a {
+  color: rgb(218, 184, 184);
+  background-color: rgb(68, 9, 112);
+  border-radius: 10px;
+  padding: 8px 24px;
+  box-shadow: 4px 7px rgb(0, 0, 0);
+}
+
+.blogs a:hover {
+font-size: 35px;
+}
+
+.blogs a:active {
+  position: relative;
+  top: 7px;
+  left: 4px;
+  box-shadow: none;
+}
+
+.blogs h1 {
+  font-size: 32px;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  color: #f73636;
+  font-family: monospace;
+  cursor: zoom-in;
+}
+
+.plus {
+  color: rgb(95, 95, 95);
+  font-size: 5px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.answer {
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 20px;
+  background-color: rgba(185, 155, 255, 0.445);
+  font-weight: bold;
+  display: none;
+  cursor: zoom-out;
+}
+
+.smallp {
+  border-radius: 20%;
+}
+
+.eBook {
+margin-bottom: 60px;
+display: inline-block;
+}
+
+/* -------------------------------footer------------------------ */
+.footer {
+  background-color: #303030;
+  color: white;
+  height: auto;
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.smallPFooter {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* --------------------------after----------------------------- */
+
+
+
+
+
+
+/* ------------【スマホ対応メディアクエリ】-------------------- */
+@media (max-width: 670px) {
+  
+  body {
+    margin-top: 0px;
+  }
+  
+  /* -------------------------header------------------ */
+  .header {
+    background-color: #83ff7f;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+  margin: 0px auto;
+}
+
+.pinkyicon {
+ /* width: 200px; */
+ /* height: 200px; */
+ width: 90px;
+ height: 90px;
+ margin: 10px;
+ border-radius: 50%;
+ border: 2px solid rgb(255, 255, 255);
+}
+
+.pinkyicon:hover {
+  /* width:220px; */
+  /* height:220px; */
+  width:100px;
+  height:100px;
+}
+
+.info span:hover {
+  color: red;
+  /* font-size: 80px; */
+  font-size: 35px;
+}
+
+.info {
+  float: right;
+  padding-top: 40px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  /* font-size: 60px; */
+  font-size: 25px;
+  margin: 0px;
+}
+
+.why p {
+  color: #4b4b4b;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0px;
+  background-color: rgb(159, 192, 253);
+  width: 160px;
+  border-radius: 10px;
+  padding: 2px 4px;
+  box-shadow: 3px 5px rgb(99, 98, 98);
+  cursor: zoom-in;
+}
+
+.why p:active {
+  position: relative;
+  top: 3px;
+  left: 5px;
+  box-shadow: none;
+}
+
+.whyAnswer {
+  float: left;
+  width: 200px;
+  color: #333333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+  /* font-size: 20px; */
+  font-size: 12px;
+  text-align: left;
+  background-color: rgba(185, 155, 255, 0.445);
+  border: 2px solid rgb(65, 65, 65);
+  font-weight: bold;
+  cursor: zoom-out;
+} 
+/* ------------------------sns--------------------------    */
+
+.sns {
+    background-color: #303030;
+    /* height: 80px; */
+    height: 40px;
+    align-items: center;
+    /* line-height: 100px; */
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .sns img {
+    /* margin-left: 30px;
+    width: 30px;
+    height: 30px; */
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .sns img:hover {
+    /* width: 60px;
+    height: 60px; */
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* ---------------------------main---------------------------- */
+  
+  .main {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9fe1ff;
+    text-align: center;
+    background-image: url(Singaporewallpaper.jpeg);
+    background-size: cover;
+    opacity: 0.8;
+  }
+  
+  .blogs {
+    align-items: center;
+  }
+  
+  .blogs a {
+    color: rgb(218, 184, 184);
+    background-color: rgb(68, 9, 112);
+    border-radius: 10px;
+    /* padding: 8px 24px;
+    box-shadow: 4px 7px rgb(0, 0, 0); */
+    padding: 4px 10px;
+    box-shadow: 2px 5px rgb(0, 0, 0);
+  }
+
+  .travel {
+    font-size: 11px;
+  }
+  
+  .blogs a:hover {
+    font-size: 15px;
+  }
+  
+  .blogs a:active {
+    position: relative;
+    /* top: 7px;
+    left: 4px; */
+    top: 5px;
+    left: 2px;
+    box-shadow: none;
+  }
+  
+  .blogs h1 {
+    /* font-size: 32px; */
+    font-size: 30px;
+    /* padding-top: 60px; */
+    padding-top: 30px;
+    /* padding-bottom: 15px; */
+    padding-bottom: 10px;
+    color: #f73636;
+    font-family: monospace;
+    cursor: zoom-in;
+  }
+  
+  .plus {
+    color: rgb(95, 95, 95);
+    /* font-size: 5px; */
+    font-size: 15px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20%;
+    cursor: pointer;
+  }
+  
+  .answer {
+    /* font-size: 20px; */
+    font-size: 15px;
+    /* text-align: center; */
+    text-align: left;
+    padding: 0px 20px;
+    background-color: rgba(185, 155, 255, 0.445);
+    font-weight: bold;
+    display: none;
+    cursor: zoom-out;
+  }
+  
+  .smallp {
+    border-radius: 20%;
+  }
+  
+  .eBook {
+    /* margin-bottom: 60px; */
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  
+  /* -------------------------------footer------------------------ */
+  .footer {
+    background-color: #303030;
+    color: white;
+    height: auto;
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .smallPFooter {
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  /* --------------------------after----------------------------- */
+}
+/* ---------【スマホ対応メディアクエリ end】-------------------- */
