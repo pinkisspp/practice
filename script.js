@@ -25,7 +25,20 @@ $(function(){
       $(this).find('span').text('-');
     }
   });
-
+  
+  // ----------------accordion------------------------------
+  $('.box3').click(function() {
+    var $answer = find('.box3-explain');
+    if($answer.hasClass('open')) {
+      $answer.removeClass('open');
+      $answer.slideUp();
+      // $(this).find('span').text('+');
+    } else {
+      $answer.addClass('open'); 
+      $answer.slideDown();
+      // $(this).find('span').text('-');
+    }
+  });
 
 
 // --------------------ここまで---------------------------
