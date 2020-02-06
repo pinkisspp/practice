@@ -50,7 +50,7 @@ h1 {
 
 .why p {
   color: #4b4b4b;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   margin: 0px;
   background-color: rgb(159, 192, 253);
@@ -58,7 +58,7 @@ h1 {
   border-radius: 10px;
   padding: 2px 4px;
   box-shadow: 3px 5px rgb(99, 98, 98);
-  cursor: zoom-in;
+  cursor: pointer;
 }
 
 .why p:active {
@@ -101,7 +101,7 @@ h1 {
 .sns img:hover {
   width: 60px;
   height: 60px;
-  }
+}
 
 /* ---------------------------main---------------------------- */
 
@@ -112,9 +112,16 @@ h1 {
   background-color: #9fe1ff;
   text-align: center;
   background-image: url(Singaporewallpaper.jpeg);
-  background-size: cover;
+  background-size: contain;
   opacity: 0.8;
 }
+
+.container {
+  border: 5px solid white;
+  margin: 20px auto;
+  width: 50%;
+  display: inline-block;
+  }
 
 .tittle{
   font-size: 20px;
@@ -132,13 +139,6 @@ h1 {
 .pinky {
   margin-bottom: 30px;
   width: 60px;
-}
-
-.container {
-border: 5px solid white;
-margin: 20px 100px;
-align-items: center;
-text-align: center;
 }
 /* -----------------border-radius-------------- */
 
@@ -204,10 +204,31 @@ transition: 1.0s;
   transform: rotate(360deg);
 }
 
+/* ------------- accordion ------------------------- */
+.box3 {
+  width: 30px;
+  height: 30px;
+  background-color: darkgrey;
+  display: inline-block;
+  border-radius: 20%;
+  margin-top: 10px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.box3-explain {
+  background-color: greenyellow;
+  margin: 10px auto;
+  border-radius: 10%;
+  width: 100px;
+  display: none;
+}
+
+.open {
+  display: block;
+}
 
 
-
-/* -------------------------------------- */
 /* -------------------------------------- */
 /* -------------------------------------- */
 /* -------------------------------------- */
@@ -265,8 +286,8 @@ transition: 1.0s;
 .pinkyicon {
  /* width: 200px; */
  /* height: 200px; */
- width: 90px;
- height: 90px;
+ width: 70px;
+ height: 70px;
  margin: 10px;
  border-radius: 50%;
  border: 2px solid rgb(255, 255, 255);
@@ -275,8 +296,8 @@ transition: 1.0s;
 .pinkyicon:hover {
   /* width:220px; */
   /* height:220px; */
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
 }
 
 .info span:hover {
@@ -294,7 +315,7 @@ transition: 1.0s;
 
 h1 {
   /* font-size: 60px; */
-  font-size: 25px;
+  font-size: 20px;
   margin: 0px;
 }
 
@@ -363,7 +384,14 @@ h1 {
   }
   
   /* ---------------------------main---------------------------- */
-  
+  .container {
+    border: 5px solid white;
+    margin: 20px auto;
+    /* width: 50%; */
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    }
  
   
   /* -------------------------------footer------------------------ */
