@@ -106,11 +106,9 @@ h1 {
 /* ---------------------------main---------------------------- */
 
 .main {
-  margin-top: 0;
+  margin: 0 auto;
   padding: 0px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #9fe1ff;
   text-align: center;
   background-image: url(Singaporewallpaper.jpeg);
@@ -136,43 +134,87 @@ h1 {
   width: 60px;
 }
 
-.pinky-radius{
-  margin-bottom: 30px;
-  width: 60px;
+.container {
+border: 5px solid white;
+margin: 20px 100px;
+align-items: center;
+text-align: center;
+}
+/* -----------------border-radius-------------- */
+
+.radius{
   border-radius: 20px;
 }
 
-.pinky-radius-circle{
-  margin-bottom: 30px;
-  width: 60px;
+.radius-circle{
   border-radius: 50%;
 }
 
-.pinky-hover-big{
-  margin-bottom: 30px;
-  width: 60px;
-}
-.pinky-hover-big:hover{
-  margin-bottom: 30px;
+/* -----------------hover--------------------- */
+.hover-big:hover{
   width: 100px;
 }
 
-.pinky-hover-small{
-  margin-bottom: 30px;
-  width: 60px;
-}
-.pinky-hover-small:hover{
-  margin-bottom: 30px;
+.hover-small:hover{
   width: 45px;
 }
 
+/* -----------------active--------------------- */
+.active-big{
+  cursor: pointer;
+}
+.active-big:active{
+  width: 80px;
+  cursor: pointer;
+}
+
+.active-small{
+  cursor: pointer;
+}
+.active-small:active{
+  width: 40px;
+  cursor: pointer;
+}
+/* ---------------click----------------------- */
+.box {
+width: 100px;
+height: 100px;
+background-color: violet;
+cursor: pointer;
+display: inline-block;
+}
+
+.box2 {
+width: 100px;
+height: 100px;
+background-color: violet;
+cursor: pointer;
+display: inline-block;
+transition: 1.0s;
+}
+
+.circle {
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.circle2 {
+  background-color: aqua;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
 
 
 
 
-
-
-
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
 
 
 /* -------------------------------footer------------------------ */
